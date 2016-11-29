@@ -14,6 +14,7 @@
 		340524CA1DE2F028005F8647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340524C81DE2F028005F8647 /* Main.storyboard */; };
 		340524CC1DE2F028005F8647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340524CB1DE2F028005F8647 /* Assets.xcassets */; };
 		340524CF1DE2F028005F8647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340524CD1DE2F028005F8647 /* LaunchScreen.storyboard */; };
+		34CD98281DED4C1C00FA340C /* SwiftAttributeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD98271DED4C1C00FA340C /* SwiftAttributeTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		340524CB1DE2F028005F8647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		340524CE1DE2F028005F8647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		340524D01DE2F028005F8647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CD98271DED4C1C00FA340C /* SwiftAttributeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAttributeTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		340524BF1DE2F028005F8647 /* SwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				3417618B1DE434EC00162E2E /* SwiftClasses(语法基础知识点) */,
 				340524C01DE2F028005F8647 /* AppDelegate.swift */,
 				340524C21DE2F028005F8647 /* RootViewController.swift */,
 				340524C41DE2F028005F8647 /* DataViewController.swift */,
@@ -68,6 +71,15 @@
 				340524D01DE2F028005F8647 /* Info.plist */,
 			);
 			path = SwiftProject;
+			sourceTree = "<group>";
+		};
+		3417618B1DE434EC00162E2E /* SwiftClasses(语法基础知识点) */ = {
+			isa = PBXGroup;
+			children = (
+				34CD98271DED4C1C00FA340C /* SwiftAttributeTest.swift */,
+			);
+			name = "SwiftClasses(语法基础知识点)";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +156,7 @@
 			files = (
 				340524C31DE2F028005F8647 /* RootViewController.swift in Sources */,
 				340524C71DE2F028005F8647 /* ModelController.swift in Sources */,
+				34CD98281DED4C1C00FA340C /* SwiftAttributeTest.swift in Sources */,
 				340524C51DE2F028005F8647 /* DataViewController.swift in Sources */,
 				340524C11DE2F028005F8647 /* AppDelegate.swift in Sources */,
 			);
@@ -305,6 +318,7 @@
 				340524D51DE2F028005F8647 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
