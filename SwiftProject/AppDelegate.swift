@@ -23,6 +23,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("当前车辆色值内容：\(swiftAttributeTest.printCarColor(carNewName: "菲亚特"))");
         swiftAttributeTest.printCarGroundInfo();
         swiftAttributeTest.printCarEmptyInfo();
+        
+        print("\n\n");
+        //集合运用
+        let swiftArrayTest=SwiftArrayTest();
+        swiftArrayTest.arrayInfoTest();
+        swiftArrayTest.setInfoTest();
+        swiftArrayTest.DictionaryInfoTest();
         return true
     }
 

@@ -8,6 +8,8 @@
 
 import UIKit
 
+let userAddress:String="厦门市思明区软件园二期";
+
 class SwiftAttributeTest: NSObject {
 
     //常量和变量
@@ -17,6 +19,8 @@ class SwiftAttributeTest: NSObject {
     func printUserInfo() {
         workYear+=1;
         print("当前信息内容为：\(userName) 工作的年限为：\(workYear)");
+        
+        print("当前所在位置：\(userAddress)");
     }
     
     
@@ -26,7 +30,7 @@ class SwiftAttributeTest: NSObject {
     func printCarInfo(){
         var carNum: String;  //方法内可以定义
         carNum="闽D8888";
-        print("当前开的车型为\(carName) 车牌：\(carNum)");
+        print("当前车型为\(carName) 车牌：\(carNum)");
         
         //bool类型跟 if语句
         let isGoodCar:Bool=true;
