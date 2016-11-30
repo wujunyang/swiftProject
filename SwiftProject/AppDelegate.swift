@@ -50,6 +50,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let swiftObjectOrientedTest=SwiftObjectOrientedTest();
         swiftObjectOrientedTest.objectOrientedShow();
         
+        print("\n\n扩展类");
+        let swiftExtensionTest=SwiftExtensionTest();
+        swiftExtensionTest.showUserInfo();
+        swiftExtensionTest.showNewUserInfo();
+        print("当前内容：",swiftExtensionTest.userWorkYear);
+        
+        print("\n\n Double扩展类");
+        let oneInch = 25.4.mm
+        print("One inch is \(oneInch) meters")
+        
         return true
     }
 

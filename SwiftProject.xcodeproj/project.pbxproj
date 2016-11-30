@@ -17,6 +17,7 @@
 		34CBE4991DEE9C9300EEAB97 /* SwiftFuncTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBE4981DEE9C9200EEAB97 /* SwiftFuncTest.swift */; };
 		34CBE49B1DEEB5DB00EEAB97 /* SwiftEnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBE49A1DEEB5DB00EEAB97 /* SwiftEnumTest.swift */; };
 		34CBE49D1DEEBDF600EEAB97 /* SwiftObjectOrientedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBE49C1DEEBDF600EEAB97 /* SwiftObjectOrientedTest.swift */; };
+		34CBE49F1DEEE66300EEAB97 /* SwiftExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBE49E1DEEE66300EEAB97 /* SwiftExtensionTest.swift */; };
 		34CD98281DED4C1C00FA340C /* SwiftAttributeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD98271DED4C1C00FA340C /* SwiftAttributeTest.swift */; };
 		34CD982A1DED6B2D00FA340C /* SwiftArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD98291DED6B2D00FA340C /* SwiftArrayTest.swift */; };
 		34CD982C1DED84B500FA340C /* SwiftConditionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD982B1DED84B500FA340C /* SwiftConditionTest.swift */; };
@@ -35,6 +36,7 @@
 		34CBE4981DEE9C9200EEAB97 /* SwiftFuncTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFuncTest.swift; sourceTree = "<group>"; };
 		34CBE49A1DEEB5DB00EEAB97 /* SwiftEnumTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftEnumTest.swift; sourceTree = "<group>"; };
 		34CBE49C1DEEBDF600EEAB97 /* SwiftObjectOrientedTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftObjectOrientedTest.swift; sourceTree = "<group>"; };
+		34CBE49E1DEEE66300EEAB97 /* SwiftExtensionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtensionTest.swift; sourceTree = "<group>"; };
 		34CD98271DED4C1C00FA340C /* SwiftAttributeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAttributeTest.swift; sourceTree = "<group>"; };
 		34CD98291DED6B2D00FA340C /* SwiftArrayTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftArrayTest.swift; sourceTree = "<group>"; };
 		34CD982B1DED84B500FA340C /* SwiftConditionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftConditionTest.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				34CBE4981DEE9C9200EEAB97 /* SwiftFuncTest.swift */,
 				34CBE49A1DEEB5DB00EEAB97 /* SwiftEnumTest.swift */,
 				34CBE49C1DEEBDF600EEAB97 /* SwiftObjectOrientedTest.swift */,
+				34CBE49E1DEEE66300EEAB97 /* SwiftExtensionTest.swift */,
 			);
 			name = "SwiftClasses(语法基础知识点)";
 			path = Classes;
@@ -172,6 +175,7 @@
 				340524C31DE2F028005F8647 /* RootViewController.swift in Sources */,
 				340524C71DE2F028005F8647 /* ModelController.swift in Sources */,
 				34CD98281DED4C1C00FA340C /* SwiftAttributeTest.swift in Sources */,
+				34CBE49F1DEEE66300EEAB97 /* SwiftExtensionTest.swift in Sources */,
 				34CD982A1DED6B2D00FA340C /* SwiftArrayTest.swift in Sources */,
 				34CBE49D1DEEBDF600EEAB97 /* SwiftObjectOrientedTest.swift in Sources */,
 				34CD982C1DED84B500FA340C /* SwiftConditionTest.swift in Sources */,
