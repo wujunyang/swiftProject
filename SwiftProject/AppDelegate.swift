@@ -42,6 +42,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let swiftFuncTest=SwiftFuncTest();
         swiftFuncTest.showInfo();
         
+        
+        let swiftEnumTest=SwiftEnumTest();
+        swiftEnumTest.showEnumInfo();
         return true
     }
 

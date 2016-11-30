@@ -15,6 +15,7 @@
 		340524CC1DE2F028005F8647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340524CB1DE2F028005F8647 /* Assets.xcassets */; };
 		340524CF1DE2F028005F8647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340524CD1DE2F028005F8647 /* LaunchScreen.storyboard */; };
 		34CBE4991DEE9C9300EEAB97 /* SwiftFuncTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBE4981DEE9C9200EEAB97 /* SwiftFuncTest.swift */; };
+		34CBE49B1DEEB5DB00EEAB97 /* SwiftEnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBE49A1DEEB5DB00EEAB97 /* SwiftEnumTest.swift */; };
 		34CD98281DED4C1C00FA340C /* SwiftAttributeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD98271DED4C1C00FA340C /* SwiftAttributeTest.swift */; };
 		34CD982A1DED6B2D00FA340C /* SwiftArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD98291DED6B2D00FA340C /* SwiftArrayTest.swift */; };
 		34CD982C1DED84B500FA340C /* SwiftConditionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD982B1DED84B500FA340C /* SwiftConditionTest.swift */; };
@@ -31,6 +32,7 @@
 		340524CE1DE2F028005F8647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		340524D01DE2F028005F8647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34CBE4981DEE9C9200EEAB97 /* SwiftFuncTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFuncTest.swift; sourceTree = "<group>"; };
+		34CBE49A1DEEB5DB00EEAB97 /* SwiftEnumTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftEnumTest.swift; sourceTree = "<group>"; };
 		34CD98271DED4C1C00FA340C /* SwiftAttributeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAttributeTest.swift; sourceTree = "<group>"; };
 		34CD98291DED6B2D00FA340C /* SwiftArrayTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftArrayTest.swift; sourceTree = "<group>"; };
 		34CD982B1DED84B500FA340C /* SwiftConditionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftConditionTest.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				34CD98291DED6B2D00FA340C /* SwiftArrayTest.swift */,
 				34CD982B1DED84B500FA340C /* SwiftConditionTest.swift */,
 				34CBE4981DEE9C9200EEAB97 /* SwiftFuncTest.swift */,
+				34CBE49A1DEEB5DB00EEAB97 /* SwiftEnumTest.swift */,
 			);
 			name = "SwiftClasses(语法基础知识点)";
 			path = Classes;
@@ -171,6 +174,7 @@
 				340524C51DE2F028005F8647 /* DataViewController.swift in Sources */,
 				340524C11DE2F028005F8647 /* AppDelegate.swift in Sources */,
 				34CBE4991DEE9C9300EEAB97 /* SwiftFuncTest.swift in Sources */,
+				34CBE49B1DEEB5DB00EEAB97 /* SwiftEnumTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
