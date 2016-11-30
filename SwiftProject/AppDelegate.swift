@@ -60,6 +60,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let oneInch = 25.4.mm
         print("One inch is \(oneInch) meters")
         
+        print("\n\n 协议运用");
+        let swiftProtocolTest=SwiftProtocolTest(name:"myName");
+        swiftProtocolTest.showUserName();
+        print("协议",swiftProtocolTest.random());
+        print("协议扩展",swiftProtocolTest.randomBool())
         return true
     }
 

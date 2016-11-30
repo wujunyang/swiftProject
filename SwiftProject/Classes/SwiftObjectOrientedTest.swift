@@ -56,7 +56,6 @@ class Animal: NSObject  {
     func makeNoise() {
         // 准备让子类重写，不要有内容
     }
-    
 }
 
 class Dog: Animal {
