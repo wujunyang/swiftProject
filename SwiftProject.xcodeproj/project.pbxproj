@@ -16,6 +16,7 @@
 		340524CF1DE2F028005F8647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340524CD1DE2F028005F8647 /* LaunchScreen.storyboard */; };
 		34CD98281DED4C1C00FA340C /* SwiftAttributeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD98271DED4C1C00FA340C /* SwiftAttributeTest.swift */; };
 		34CD982A1DED6B2D00FA340C /* SwiftArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD98291DED6B2D00FA340C /* SwiftArrayTest.swift */; };
+		34CD982C1DED84B500FA340C /* SwiftConditionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD982B1DED84B500FA340C /* SwiftConditionTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		340524D01DE2F028005F8647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34CD98271DED4C1C00FA340C /* SwiftAttributeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAttributeTest.swift; sourceTree = "<group>"; };
 		34CD98291DED6B2D00FA340C /* SwiftArrayTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftArrayTest.swift; sourceTree = "<group>"; };
+		34CD982B1DED84B500FA340C /* SwiftConditionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftConditionTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				34CD98271DED4C1C00FA340C /* SwiftAttributeTest.swift */,
 				34CD98291DED6B2D00FA340C /* SwiftArrayTest.swift */,
+				34CD982B1DED84B500FA340C /* SwiftConditionTest.swift */,
 			);
 			name = "SwiftClasses(语法基础知识点)";
 			path = Classes;
@@ -161,6 +164,7 @@
 				340524C71DE2F028005F8647 /* ModelController.swift in Sources */,
 				34CD98281DED4C1C00FA340C /* SwiftAttributeTest.swift in Sources */,
 				34CD982A1DED6B2D00FA340C /* SwiftArrayTest.swift in Sources */,
+				34CD982C1DED84B500FA340C /* SwiftConditionTest.swift in Sources */,
 				340524C51DE2F028005F8647 /* DataViewController.swift in Sources */,
 				340524C11DE2F028005F8647 /* AppDelegate.swift in Sources */,
 			);

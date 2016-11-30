@@ -30,6 +30,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         swiftArrayTest.arrayInfoTest();
         swiftArrayTest.setInfoTest();
         swiftArrayTest.DictionaryInfoTest();
+        
+        print("\n\n");
+        let swiftConditionTest=SwiftConditionTest();
+        swiftConditionTest.forFuncTest();
+        swiftConditionTest.WhileFuncTest();
+        swiftConditionTest.ifFuncTest();
+        swiftConditionTest.switchFuncTest();
         return true
     }
 

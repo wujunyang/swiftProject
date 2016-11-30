@@ -102,10 +102,10 @@ class SwiftArrayTest: NSObject {
         var changeArrayList=["a","b","c","d","e","f"];
         changeArrayList[0]="x";
         
-        print("当前changeArrayList个数为:"+String (format:"当前值为：%i",changeArrayList.count));
+        print("当前changeArrayList个数为:"+String (format:"当前值为:",changeArrayList.count));
         
         changeArrayList[3...5]=["w","s"];
-        print("当前changeArrayList个数为:"+String (format:"当前值为：%i",changeArrayList.count));
+        print("当前changeArrayList个数为:"+String (format:"当前值为:",changeArrayList.count));
         for item in changeArrayList
         {
             print("当前字符串值内容："+item);
@@ -124,9 +124,9 @@ class SwiftArrayTest: NSObject {
         var letters = Set<Character>();
         letters.insert("a");
         letters.insert("c");
-        print("当前letters个数为:"+String (format:"当前值为：%i",letters.count));
+        print("当前letters个数为:"+String (format:"当前值为：",letters.count));
         for item in letters{
-            print("当前字符串值内容:%@",item);
+            print("当前字符串值内容:",item);
         }
         
         print("\n set移除某值")
@@ -154,7 +154,7 @@ class SwiftArrayTest: NSObject {
         print("\n 删除操作")
         favoriteOtherGenres.removeFirst();
         for item in favoriteOtherGenres{
-            print("当前字符串值内容:%@",item);
+            print("当前字符串值内容:",item);
         }
         
         favoriteOtherGenres.removeAll();
