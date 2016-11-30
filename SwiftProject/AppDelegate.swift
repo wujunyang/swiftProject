@@ -45,6 +45,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let swiftEnumTest=SwiftEnumTest();
         swiftEnumTest.showEnumInfo();
+        
+        
+        let swiftObjectOrientedTest=SwiftObjectOrientedTest();
+        swiftObjectOrientedTest.objectOrientedShow();
+        
         return true
     }
 
