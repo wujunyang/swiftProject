@@ -37,6 +37,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         swiftConditionTest.WhileFuncTest();
         swiftConditionTest.ifFuncTest();
         swiftConditionTest.switchFuncTest();
+        
+        print("\n\n");
+        let swiftFuncTest=SwiftFuncTest();
+        swiftFuncTest.showInfo();
+        
         return true
     }
 
