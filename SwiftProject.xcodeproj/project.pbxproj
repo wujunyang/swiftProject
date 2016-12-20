@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340452281E0909A200392999 /* SwiftViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340452271E0909A200392999 /* SwiftViewTest.swift */; };
 		340524C11DE2F028005F8647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340524C01DE2F028005F8647 /* AppDelegate.swift */; };
 		340524C31DE2F028005F8647 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340524C21DE2F028005F8647 /* RootViewController.swift */; };
 		340524C51DE2F028005F8647 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340524C41DE2F028005F8647 /* DataViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		340452271E0909A200392999 /* SwiftViewTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewTest.swift; sourceTree = "<group>"; };
 		340524BD1DE2F028005F8647 /* SwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		340524C01DE2F028005F8647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		340524C21DE2F028005F8647 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		340452231E09060000392999 /* SwiftUI(UI运用) */ = {
+			isa = PBXGroup;
+			children = (
+				340452271E0909A200392999 /* SwiftViewTest.swift */,
+			);
+			name = "SwiftUI(UI运用)";
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		340524B41DE2F028005F8647 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +85,7 @@
 		340524BF1DE2F028005F8647 /* SwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				340452231E09060000392999 /* SwiftUI(UI运用) */,
 				3417618B1DE434EC00162E2E /* SwiftClasses(语法基础知识点) */,
 				340524C01DE2F028005F8647 /* AppDelegate.swift */,
 				340524C21DE2F028005F8647 /* RootViewController.swift */,
@@ -135,6 +147,7 @@
 				TargetAttributes = {
 					340524BC1DE2F028005F8647 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -187,6 +200,7 @@
 				340524C11DE2F028005F8647 /* AppDelegate.swift in Sources */,
 				34CBE4991DEE9C9300EEAB97 /* SwiftFuncTest.swift in Sources */,
 				34CBE49B1DEEB5DB00EEAB97 /* SwiftEnumTest.swift in Sources */,
+				340452281E0909A200392999 /* SwiftViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,10 +321,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wjy.com.SwiftProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -319,6 +335,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wjy.com.SwiftProject;
