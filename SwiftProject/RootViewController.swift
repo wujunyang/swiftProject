@@ -8,10 +8,11 @@
 
 import UIKit
 
-class RootViewController: UIViewController, UIPageViewControllerDelegate {
+class RootViewController: UIViewController, UIPageViewControllerDelegate,UITableViewDelegate,UITableViewDataSource {
 
     var pageViewController: UIPageViewController?
-
+    var nameArr = ["嘿嘿嘿1","哈哈哈2","啦啦啦3","哈哈哈4","啦啦啦5"]
+    let myTableView=UITableView();
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +39,69 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 //
 //        self.pageViewController!.didMove(toParentViewController: self)
         
+        //UI测试布局
+        //self.loayTestUI();
+        self.loayTableViewUI();
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    func loayTableViewUI()
+    {
+        myTableView.frame=CGRect(x:0,y:0,width:UIScreen.main.bounds.size.width,height:UIScreen.main.bounds.size.height);
+        myTableView.translatesAutoresizingMaskIntoConstraints=true;
+        myTableView.delegate=self;
+        myTableView.dataSource=self;
+        myTableView.backgroundColor=UIColor.blue;
+        myTableView.tableFooterView=UIView.init();
+        myTableView.tableHeaderView=self.addTableHeaderView();
+        self.view.addSubview(myTableView);
+    }
+    
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        print("当前选中的内容为：",indexPath.row);
+    }
+    
+    public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
+    {
+        return 44;
+    }
+    
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        var cell=tableView.dequeueReusableCell(withIdentifier: "reuse")
         
+        if cell == nil {
+            cell = UITableViewCell(style: .default, reuseIdentifier:"reuse")
+            
+        }
+        cell?.textLabel?.text=nameArr[indexPath.row];
+        return cell!;
+    }
+    
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return nameArr.count;
+    }
+    
+    public func numberOfSections(in tableView: UITableView) -> Int
+    {
+        return 1;
+    }
+    
+    func addTableHeaderView() -> UIView
+    {
+        let headerView=UIView.init(frame: CGRect(x:0,y:0,width:UIScreen.main.bounds.size.width,height:100));
+        headerView.backgroundColor=UIColor.red;
+        return headerView;
+    }
+    
+    
+    func loayTestUI() -> Void {
         //创建一个视图
         let myView=UIView.init();
         myView.frame=CGRect(x:20,y:40,width:260,height:50);
@@ -96,11 +159,6 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         mySegement.tintColor=UIColor.blue;
         mySegement.addTarget(self, action:#selector(RootViewController.mySegementAction(segement:)), for: UIControlEvents.valueChanged);
         self.view.addSubview(mySegement);
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func buttonSave()
