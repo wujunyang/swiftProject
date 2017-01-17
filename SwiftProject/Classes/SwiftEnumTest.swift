@@ -34,6 +34,13 @@ class SwiftEnumTest: NSObject {
         case rightAddress
     }
     
+    //枚举带关联值
+    enum Planet{
+        case Mercury(weight:Double,name:String)
+        case Earth(Double,String)
+        case Jupiter
+    }
+    
     func showEnumInfo() -> Void {
         
         let directionToHead=CompassPoint.north;
@@ -54,5 +61,17 @@ class SwiftEnumTest: NSObject {
         
         print("当前为：",AddressType.leftAddress.rawValue);
         print("当前为：",AddressType.rightAddress.rawValue);
+        
+        //枚举跟关联值
+        let p1=Planet.Mercury(weight: 0.05, name: "wujunyang");
+        let p2=Planet.Earth(0.2, "abccef");
+        
+        switch p1 {
+        case Planet.Mercury(let weight,let name):
+            print("wujunyang:当前的值为：\(name),\(weight)");
+        default:
+            break;
+        }
+        
     }
 }
