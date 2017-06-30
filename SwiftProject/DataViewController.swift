@@ -13,7 +13,7 @@ class DataViewController: UIViewController {
     @IBOutlet weak var dataLabel: UILabel!
     var dataObject: String = ""
 
-    //patch测试wjy
+    //patch测试wjy0
 
     override func viewDidLoad() {
         super.viewDidLoad()
