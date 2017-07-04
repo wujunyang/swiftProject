@@ -15,6 +15,7 @@
 		340524CA1DE2F028005F8647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340524C81DE2F028005F8647 /* Main.storyboard */; };
 		340524CC1DE2F028005F8647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340524CB1DE2F028005F8647 /* Assets.xcassets */; };
 		340524CF1DE2F028005F8647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340524CD1DE2F028005F8647 /* LaunchScreen.storyboard */; };
+		340572AA1F0B822400870BDE /* ZUSnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340572A91F0B822400870BDE /* ZUSnapKitViewController.swift */; };
 		34CBE4991DEE9C9300EEAB97 /* SwiftFuncTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBE4981DEE9C9200EEAB97 /* SwiftFuncTest.swift */; };
 		34CBE49B1DEEB5DB00EEAB97 /* SwiftEnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBE49A1DEEB5DB00EEAB97 /* SwiftEnumTest.swift */; };
 		34CBE49D1DEEBDF600EEAB97 /* SwiftObjectOrientedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CBE49C1DEEBDF600EEAB97 /* SwiftObjectOrientedTest.swift */; };
@@ -37,6 +38,7 @@
 		340524CB1DE2F028005F8647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		340524CE1DE2F028005F8647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		340524D01DE2F028005F8647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340572A91F0B822400870BDE /* ZUSnapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZUSnapKitViewController.swift; sourceTree = "<group>"; };
 		34CBE4981DEE9C9200EEAB97 /* SwiftFuncTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFuncTest.swift; sourceTree = "<group>"; };
 		34CBE49A1DEEB5DB00EEAB97 /* SwiftEnumTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftEnumTest.swift; sourceTree = "<group>"; };
 		34CBE49C1DEEBDF600EEAB97 /* SwiftObjectOrientedTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftObjectOrientedTest.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				340524C21DE2F028005F8647 /* RootViewController.swift */,
 				340524C41DE2F028005F8647 /* DataViewController.swift */,
 				340524C61DE2F028005F8647 /* ModelController.swift */,
+				340572A91F0B822400870BDE /* ZUSnapKitViewController.swift */,
 				340524C81DE2F028005F8647 /* Main.storyboard */,
 				340524CB1DE2F028005F8647 /* Assets.xcassets */,
 				340524CD1DE2F028005F8647 /* LaunchScreen.storyboard */,
@@ -174,7 +177,7 @@
 				TargetAttributes = {
 					340524BC1DE2F028005F8647 = {
 						CreatedOnToolsVersion = 8.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -265,6 +268,7 @@
 			files = (
 				340524C31DE2F028005F8647 /* RootViewController.swift in Sources */,
 				340524C71DE2F028005F8647 /* ModelController.swift in Sources */,
+				340572AA1F0B822400870BDE /* ZUSnapKitViewController.swift in Sources */,
 				34CD98281DED4C1C00FA340C /* SwiftAttributeTest.swift in Sources */,
 				34CBE49F1DEEE66300EEAB97 /* SwiftExtensionTest.swift in Sources */,
 				34CD982A1DED6B2D00FA340C /* SwiftArrayTest.swift in Sources */,

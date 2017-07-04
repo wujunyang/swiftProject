@@ -64,6 +64,12 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate,UITable
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
         print("当前选中的内容为：",indexPath.row);
+        
+        if(indexPath.row==0)
+        {
+            let vc=ZUSnapKitViewController();
+            self.present(vc, animated: true, completion: nil);
+        }
     }
     
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat

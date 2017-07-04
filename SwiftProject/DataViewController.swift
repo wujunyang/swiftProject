@@ -30,6 +30,10 @@ class DataViewController: UIViewController {
         self.dataLabel!.text = dataObject
     }
 
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated);
+        NSLog("%@","wujuyang");
+    }
 
 }
 
